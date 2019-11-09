@@ -1,0 +1,36 @@
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: black;
+}
+body{
+	display: flex;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+nav{
+	background-color: lightblue;
+	flex:0.3;
+	font-size: 35px;
+	color: white;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+main{
+	padding-top: 100px;
+	padding-left: 20px;
+	background-color: WhiteSmoke;
+	flex: 1;
+}
+#navHeading{
+	text-align: center;
+	font-weight: bold;
+}
+@media screen and (max-width: 992px) {
+  body {
+    background-color: white;
+  }
+}
